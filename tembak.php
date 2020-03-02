@@ -65,7 +65,7 @@ echo " ===========================\n";
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","+] Message: ".$message);
-        goto goride;
+        goto ;
         }else{
         echo "\n".color("red","-] Message: ".$message);
         echo "\n".color("yellow","!] Claim voc GOFOODSANTUY11");
@@ -79,7 +79,7 @@ echo " ===========================\n";
         $messageboba10 = fetch_value($boba10,'"message":"','"');
         if(strpos($boba10, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","+] Message: ".$messageboba10);
-        goto goride;
+        goto ;
         }else{
         echo "\n".color("red","-] Message: ".$messageboba10);
         echo "\n".color("yellow","!] Claim voc GOFOODSANTUY08");
